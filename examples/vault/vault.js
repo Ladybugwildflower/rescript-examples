@@ -10,7 +10,6 @@ log.Info("Sealed: ", sealed)
 
 if (sealed) {
     log.Info("Unsealing...")
-    log.Info(VAULT_UNSEAL_KEY)
     var err = Vault.Unseal(VAULT_UNSEAL_KEY)
     CheckError(err)
 
