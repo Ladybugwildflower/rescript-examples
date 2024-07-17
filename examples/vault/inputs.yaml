@@ -1,0 +1,5 @@
+VAULT_ADDRESS: "http://127.0.0.1:8200"
+VAULT_TOKEN: "my-token"
+VAULT_ROLEID: ""
+VAULT_SECRETID: ""
+VAULT_UNSEAL_KEY: "unseal-key"

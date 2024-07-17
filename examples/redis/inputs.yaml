@@ -1,0 +1,7 @@
+REDIS_ADDR: "localhost:6379"
+REDIS_PASSWORD: ""
+REDIS_DB: 0
+
+# Or configure using the redis url.  Use this method if using ssl or unix sockets.
+# REDIS_URL: "redis://<user>:<pass>@localhost:6379/<db>"
+# REDIS_URL: "rediss://<user>:<pass>@localhost:6379/<db>"

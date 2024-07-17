@@ -1,0 +1,14 @@
+GIT_USER: "git"
+GIT_PASSWORD: "my-token"
+
+GITLAB_TOKEN: "my-token"
+GITHUB_TOKEN: "my-token"
+
+DOCKER_USER: "user"
+DOCKER_PASSWORD: "password"
+
+VAULT_ADDRESS: "http://127.0.0.1:8200"
+VAULT_TOKEN: "my-token"
+VAULT_ROLEID: ""
+VAULT_SECRETID: ""
+VAULT_UNSEAL_KEY: "unseal-key"
