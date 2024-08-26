@@ -1,3 +1,9 @@
+function CheckError(err) {
+    if (err != undefined) {
+        throw(err)
+    }
+}
+
 // Run a container (integration test)...
 // Pull an Image
 log.Info("Running docker image pull...")
