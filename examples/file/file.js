@@ -19,3 +19,6 @@ Output("json", data)
 var [data, err] = file.ReadYAML("test.yaml")
 CheckError(err)
 Output("yaml", data)
+
+err = file.Run("examples/exec/exec.js")
+CheckError(err)
