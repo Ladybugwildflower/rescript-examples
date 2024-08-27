@@ -5,14 +5,18 @@ function CheckError(err) {
 }
 
 
-var err = exec("whoami")
+var err = exec.Exec("whoami")
 CheckError(err)
 
-var err = exec("uptime")
+var err = exec.Exec("uptime")
 CheckError(err)
 
-var err = exec("uname", "-a")
+var err = exec.Exec("uname", "-a")
 CheckError(err)
 
-// var err = exec("sh", "-c", "somecommand | something -complicated")
+err = exec.Script(`var bar="baz"`)
+CheckError(err)
+log.Info(bar)
+
+// var err = exec.Exec("sh", "-c", "somecommand | something -complicated")
 // CheckError(err)
